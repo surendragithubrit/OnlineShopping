@@ -1,0 +1,283 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ul li
+{
+  display: inline;
+  padding: 20px;
+}
+
+header,
+nav,
+main,
+footer {
+    border: 1px solid;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+nav {
+    height: 50px;
+    width: auto;
+    background-color: cadetblue;
+    border: none;
+   
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    padding-left: 15px;
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+nav ul li .name{
+  color: white;
+  
+}
+
+nav p{
+  display: flex;
+  margin: 0;
+}
+
+.name:hover{
+   color: none;
+}
+
+nav ul li a:hover{
+  color:black;
+}
+
+main {
+    height: auto;
+    background-color: white;
+    background-repeat: no-repeat;
+    width: auto;
+    border: none;
+}
+main h1
+{
+    padding: 20px;
+}
+
+footer {
+    margin-top: 50px; 
+    height: 50px;
+    width: auto;
+    background-color: orangered;
+    border: none;
+
+}
+
+footer h2 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 15px;
+   
+    
+}
+
+.home img{
+  height: 500px;
+    width: 100%;
+
+}
+
+
+
+ */
+
+/* 
+ .App {
+  text-align: center;
+}
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  padding: 20px;
+}
+
+.logo-container {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.logo {
+  height: 40px; 
+}
+
+nav {
+  height: 70px;
+  background-color: lightsteelblue;
+  border: none;
+  
+}
+
+nav ul li a {
+  padding-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+main {
+  height: auto;
+  background-color: white;
+  width: auto;
+  border: none;
+}
+
+footer {
+  margin-top: 50px;
+  height: 50px;
+  background-color: orangered;
+}
+
+footer h2 {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+
+.home img{
+  height: 500px;
+    width: 100%;
+
+} */
+
+.App {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  padding: 20px;
+}
+
+/* Ensuring the logo stays in the left corner and content is aligned next to it */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+P{
+  margin-top: 40px;
+  margin-left: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 500;
+}
+.logo-container {
+  display: inline-block;
+  margin-left: 10px; /* Keeps the logo aligned to the left */
+}
+
+.logo {
+  height: 50px; /* Adjust as per your needs */
+}
+
+nav {
+  height: 70px;
+  background-color:    #2f4f4f;
+  border: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+nav ul li a {
+  padding-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: black;
+}
+
+main {
+  height: auto;
+  background-color: white;
+  width: auto;
+  border: none;
+}
+
+footer {
+  margin-top: 50px;
+  height: 50px;
+  background-color:  #708090;
+}
+
+footer h2 {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+.home img {
+  height: 500px;
+  width: 100%;
+}
